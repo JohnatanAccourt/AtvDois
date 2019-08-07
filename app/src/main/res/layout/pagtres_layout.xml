@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mountainshero"
+    android:orientation="vertical"
+    tools:context=".Activity_Pagtres">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="680dp"
+        android:layout_margin="25dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="320dp"
+            android:layout_height="130dp"
+            android:layout_gravity="center"
+            android:background="@drawable/letreiro" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/line"
+            android:hint="Adventure Name"
+            android:textColor="#Fff"
+            android:textColorHint="#fff" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/line"
+            android:hint="E-mail"
+            android:textColor="#Fff"
+            android:textColorHint="#fff" />
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/line"
+            android:hint="Password"
+            android:textColor="#Fff"
+            android:textColorHint="#fff" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/botao"
+            android:text="Create my Account"
+            android:textColor="#fff" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="or login with"
+            android:textColor="#F6A902"
+            android:textSize="15sp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:collapseColumns="0.1"
+            >
+
+            <TableRow>
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/face"
+                    android:src="@drawable/circle"/>
+            </TableRow>
+
+        </TableLayout>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
